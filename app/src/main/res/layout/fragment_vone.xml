@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VertebrateFragment.VOneFragment"
+    android:paddingBottom="16dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="-15dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/bg">
+
+    <!-- TODO: Update blank fragment layout -->
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+    <TextView
+        android:id="@+id/txtwiatochange"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:background="@drawable/back"
+
+        android:text="Animals are living things. Like plants, animals need food and water to live.
+
+Unlike plants, which make their own food, animals feed themselves by eating plants or
+other animals"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/changetextbtnInd"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/btn_bhsind"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/changetextbtnIng"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/btn_bhseng"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="180dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtwiatitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:drawableTop="@drawable/vertebrate_title"
+        android:gravity="center" />
+
+
+</FrameLayout>

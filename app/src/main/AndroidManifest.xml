@@ -9,13 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuDuaActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-        <activity android:name=".MenuSatuActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".AboutActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".SplashActivity"
+        <activity android:name=".InvertebrateFragment.InWormsFragment"></activity>
+        <activity android:name=".InvertebrateFragment.InSpongesFragment" />
+        <activity android:name=".InvertebrateFragment.InStarfishFragment" />
+        <activity android:name=".InvertebrateFragment.InJellyfishFragment" />
+        <activity android:name=".InvertebrateFragment.InMollusksFragment" />
+        <activity android:name=".InvertebrateFragment.InOneFragment" />
+        <activity android:name=".InvertebrateFragment.InArthropodsFragment" />
+        <activity android:name=".InvertebrateActivity" />
+        <activity android:name=".VertebrateActivity" />
+        <activity
+            android:name=".MenuDuaActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MenuSatuActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

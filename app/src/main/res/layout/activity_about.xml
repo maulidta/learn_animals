@@ -14,11 +14,11 @@
 
     <Button
         android:id="@+id/homemenuwia2"
-        android:layout_width="80dp"
-        android:layout_height="100dp"
+        android:layout_width="81dp"
+        android:layout_height="92dp"
         android:layout_below="@+id/textView7"
-        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:background="@drawable/mainmenu"
         android:textSize="15sp"
         android:textStyle="bold" />

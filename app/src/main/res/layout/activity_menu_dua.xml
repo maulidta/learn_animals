@@ -23,7 +23,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/changetextbtnEng2"
+        android:id="@+id/btninvertebrates"
         android:layout_width="wrap_content"
         android:layout_height="125dp"
         android:layout_alignParentTop="true"
@@ -31,14 +31,14 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="260dp"
         android:layout_marginEnd="10dp"
-        android:layout_toEndOf="@+id/btnScrollableTabs"
+        android:layout_toEndOf="@+id/btnvertebrates"
         android:layout_toRightOf="@+id/changetextbtnInd"
         android:background="@drawable/button3"
         android:textSize="15sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btnScrollableTabs"
+        android:id="@+id/btnvertebrates"
         android:layout_width="155dp"
         android:layout_height="124dp"
         android:layout_below="@+id/txtwiatitle"
@@ -49,25 +49,13 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/nextbtn2"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="520dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/next_btn"
-        android:textSize="15sp"
-        android:textStyle="bold" />
-
-    <Button
         android:id="@+id/homemenuwia2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="483dp"
         android:layout_marginEnd="10dp"
-        android:layout_toStartOf="@+id/nextbtn2"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/mainmenu"
         android:textSize="15sp"
         android:textStyle="bold" />

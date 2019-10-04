@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dashboard_ori"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InWormsFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InSpongesFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InStarfishFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InJellyfishFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InMollusksFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InOneFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateFragment.InArthropodsFragment" />
+        <activity android:name="com.example.dashboard_ori.InvertebrateActivity" />
+        <activity android:name="com.example.dashboard_ori.VertebrateActivity" />
+        <activity
+            android:name="com.example.dashboard_ori.MenuDuaActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.example.dashboard_ori.MenuSatuActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.example.dashboard_ori.AboutActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.example.dashboard_ori.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dashboard_ori.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

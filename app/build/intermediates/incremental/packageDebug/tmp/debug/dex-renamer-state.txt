@@ -1,0 +1,4 @@
+#Thu Oct 03 15:54:04 ICT 2019
+base.0=E\:\\KULIAH\\SEMESTER 8\\coba-coba android studio\\dashboard_ori_with_frgscrlbl\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
